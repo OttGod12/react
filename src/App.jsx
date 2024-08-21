@@ -1,15 +1,23 @@
+import { Header } from './components/Header.jsx'
+import { Main } from './components/Main.jsx'
+import { Footer } from './components/Footer.jsx'
 
-export function App() {
 
+
+export function App(){
   return(
     <>
-      <h1>Titulo</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore, est, natus facilis eius dolores consequuntur officia provident cumque maiores quisquam, enim molestias quo perferendis praesentium maxime doloribus culpa eligendi nam?</p>
-
-    
+      <Header></Header>
+      <Main></Main>
+      <Footer></Footer>
     </>
+  
   )
 }
+
+
+
+  
 
 
 
